@@ -1,0 +1,54 @@
+
+select {
+    height: 32px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.parking-selector {
+    width: 85%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.color-indicator {
+    // text-align: center;
+
+    .color {
+        height: 24px;
+        width: 24px;
+        border-radius: 50px;
+        display: inline-block;
+        margin: 4px 8px;
+
+        &.green {
+            background: #33d202;
+        }
+
+        &.red {
+            background: #d2022e;
+        }
+    }
+    
+    .text {
+        position: relative;
+        top: -12px;
+        margin-right: 4px;
+    }
+}
+
+.theme {
+    text-align: left;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    right: 20px;
+    
+    button {
+        background: #fff;
+        color: #333;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 4px 8px;
+        cursor: pointer;
+    }
+}
